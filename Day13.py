@@ -1,7 +1,8 @@
 import random
-word = ["Akshada", "Akshay","pranalee"]
+import words
 lives = 6
-chosen_word = random.choice(word).lower() #AKshay
+chosen_word = random.choice(words.word).lower() #AKshay
+print(chosen_word)
 display = []
 for i in range(len(chosen_word)):
     display+= '_'
@@ -14,9 +15,7 @@ while not game_over:
         if letter == guessed_letter:
             display[pos]  = guessed_letter
     print(display)        
-        #     print("match")
-        # else:
-        #     print("not match")
+    
     if  guessed_letter not in chosen_word:
         lives-=1
         if lives == 0:

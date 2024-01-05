@@ -1,0 +1,1 @@
+word = ["Akshay","suraj","sanket","Gokul","Raj","Aniket","Abhishek","Vishal","Prasad","Vaibhav","Rushya","Abhay","Virat","Jay"]
