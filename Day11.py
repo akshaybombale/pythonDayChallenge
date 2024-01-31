@@ -1,25 +1,25 @@
 import random
 import string
-# num = range(2,101,2)
-# sum=0
-# for i in num:
-#     sum += i
-# print(sum)  
+num = range(2,101,2)
+sum=0
+for i in num:
+    sum += i
+print(sum)  
 
 # #Exercise
-# n = int(input("Enter the value of n: "))
-# print (n)
-# for i in range (1, n):
-#     if  i % 3 == 0 and   i % 5 == 0:
-#         print ("FizzBuzz") 
-#     elif i % 3 == 0:
-#         print("Fizz")
-#     elif i % 5 == 0:
-#         print("Buzz")
-#     elif  i % 3 == 0 and   i % 5 == 0:
-#         print ("FizzBuzz") 
-#     else:
-#         print(i)
+n = int(input("Enter the value of n: "))
+print (n)
+for i in range (1, n):
+    if  i % 3 == 0 and   i % 5 == 0:
+        print ("FizzBuzz") 
+    elif i % 3 == 0:
+        print("Fizz")
+    elif i % 5 == 0:
+        print("Buzz")
+    elif  i % 3 == 0 and   i % 5 == 0:
+        print ("FizzBuzz") 
+    else:
+        print(i)
 
 #Exercise
 letters = list(string.ascii_letters)

@@ -1,4 +1,4 @@
-#datatypes
+# #datatypes
 
 var_1 = 23843654
 var_2 = 345.43
@@ -10,7 +10,7 @@ print(type(var_2))
 print(type(var_3))
 print(type(var_4))
 
-#type casting
+# #type casting
 
 length = len("Akshay Bombale")
 print("In your name there are " + str(length) + " charachter")
@@ -40,14 +40,14 @@ z = x + y
 z += 2  
 print(z)
 
-# Assignment Operator
+# # Assignment Operator
 
 print (z == 13)
 print (z <= 13)
 print (z >= 13)
 print (z != 13)
 
-# Logical Operator if you want to check two conditions
+# # Logical Operator if you want to check two conditions
 
 p, q = 5, 8
 print (p<q and q>5)
@@ -57,9 +57,9 @@ m = 5
 n = '5'
 print (id(m)==id(n))
 
-# membership operator
-# in 
-# not in 
+# # membership operator
+# # in 
+# # not in 
 
 str =  "Akshay"
 print ('y' in str)

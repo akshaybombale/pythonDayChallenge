@@ -1,11 +1,11 @@
 #tuples and operations
-# tuple_1 = (2,5,1,7,4,"Akshay",90)
-# tuple_2 = (7,3,90,21,4,90)
-# print(tuple_1,tuple_2)
-# print(len(tuple_1))
-# print(min(tuple_2))
-# print(max(tuple_2))
-# print((tuple_2 + tuple_1))
+tuple_1 = (2,5,1,7,4,"Akshay",90)
+tuple_2 = (7,3,90,21,4,90)
+print(tuple_1,tuple_2)
+print(len(tuple_1))
+print(min(tuple_2))
+print(max(tuple_2))
+print((tuple_2 + tuple_1))
 
 #sets and methods
 set_1 = {4,76,34,43,101,102,103,104,100}
