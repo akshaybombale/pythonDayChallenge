@@ -2,7 +2,7 @@
 import random
 user_choice = int(input("choose from below: \n1.Rock \n2.paper \n3.Scissors: \n"))
 print(f"You have choose: {user_choice}")
-computer_choice = random.randint(0,2)
+computer_choice = random.randint(1,3)
 print("computer choice")
 print(computer_choice)
 if user_choice ==  computer_choice:
